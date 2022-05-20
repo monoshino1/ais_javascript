@@ -1,0 +1,60 @@
+body {
+  font-style: sans-serif;
+}
+
+input{
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+  outline: none;
+}
+
+li{
+  margin-right: 2px;
+}
+
+button{
+  border-radius: 8px;
+  border: none;
+  margin-right: 2px;
+}
+
+button:hover{
+  background: rgb(251, 194, 152);
+}
+
+.input-area{
+  background: rgb(199, 231, 240);
+  height:30px;
+  padding: 8px;
+  margin: 8px;
+  border-radius:10px;
+}
+
+.imcomplete-area{
+  background: rgb(186, 247, 135);
+  padding: 8px;
+  margin: 8px;
+  min-height: 200px;
+  border-radius:10px;
+}
+
+.complete-area{
+  background: rgb(232, 238, 175);
+  padding: 8px;
+  margin: 8px;
+  min-height: 200px;
+  border-radius:10px;
+}
+
+.title{
+  margin-top: 0px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(46, 46, 45);
+}
+
+.list-row{
+  display:flex;
+  align-items: center;
+}
